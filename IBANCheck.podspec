@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/HHuckebein/IBANCheck.git", :tag => s.version.to_s }
   s.source_files = "IBANCheck", "IBANCheck/IBANCheck.{h,m}"
   s.requires_arc = true
-  s.dependency "ISO3661-1Alpha2_objc"
+  s.dependency "ISO3166-1-Alpha2"
 end
